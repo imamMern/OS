@@ -18,6 +18,13 @@ const config = {
       },
     },
     extend: {
+      maxWidth: {
+        container:'1440px',
+        container2:'600px'
+      },
+        fontFamily:{
+          onest: ['var(--font-Onest)'],
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

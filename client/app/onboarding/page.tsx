@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 export default function Page() {
-    return <h1>Hello, Dashboard Page!</h1>
+    return <h1>Hello, This is onboardingflow!</h1>
   }
