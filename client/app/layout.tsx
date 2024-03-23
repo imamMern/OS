@@ -5,7 +5,10 @@ import Head from "next/head";
 
 const onest = Onest({
   subsets: ["latin"],
-  variable: '--font-Onest'
+  variable: '--font-Onest',
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {
